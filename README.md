@@ -24,7 +24,7 @@ Currently, ELIB utilizes the same models as llama.cpp and can download the origi
 ## Compile
 ```shell
 git clone https://github.com/hchenphd/ELIB.git
-cd ELIB
+cd ELIB/cmake
 mkdir build
 cd build
 cmake ..
