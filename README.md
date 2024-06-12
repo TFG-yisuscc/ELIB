@@ -6,7 +6,7 @@
 
 ## Features
 - Cross-Platform Benchmarking: Deploy ELIB on PC, Mobile, and IoT edge platforms.
-- Quantized Models: Utilize five carefully quantized models for accurate benchmarking.
+- Quantized Models: Utilize quantized models for accurate benchmarking.
 - Comprehensive Metrics: Evaluate and analyze performance using a set of comprehensive metrics.
 - Practical Insights: Obtain practical insights to guide future developments in LLM inference on edge platforms.
 
@@ -19,14 +19,12 @@
 - Can be deployed on IOT, mobile phones, PC, with acceptable speed.
 
 ## How to
-Currently, ELIB utilizes the same models as llama.cpp and can download the original models from the llama.cpp project. Additionally, quantized models are available for direct download from HuggingFace [/paiphd/ELIB](https://huggingface.co/paiphd/ELIB/tree/main). The provided quantized models include q4_0, q4_1, q5_0, q5_1, and q8_0. Please put these files in /models folder.
+Currently, ELIB utilizes the same models as llama.cpp and can download the original models from the llama project. Additionally, quantized models are available for direct download from HuggingFace [/paiphd/ELIB](https://huggingface.co/paiphd/ELIB/tree/main). The provided quantized models include q4_0, q4_1, q5_0, q5_1, and q8_0. Please put these files in /models folder.
 
 ## Compile
 ```shell
 git clone https://github.com/hchenphd/ELIB.git
 cd ELIB/cmake
-mkdir build
-cd build
 cmake ..
 make
 ```
