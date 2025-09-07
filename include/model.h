@@ -2,7 +2,7 @@
 
 #include <memory>
 #include <string>
-
+#include <cstdint>
 #if defined(_WIN32)
 #define API __declspec(dllexport)
 #else

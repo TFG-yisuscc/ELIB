@@ -4,7 +4,7 @@
 #include <immintrin.h>
 #include "common.h"
 #include "core/tensor.h"
-#include "kern/kernel_define.h"
+#include "kernel/kernel_define.h"
 
 namespace ELIB {
 namespace opt {

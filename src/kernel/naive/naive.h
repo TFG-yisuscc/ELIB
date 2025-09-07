@@ -1,7 +1,7 @@
 #pragma once
 
-#include "kern/kernel_define.h"
-#include "kern/naive/quantize.h"
+#include "kernel/kernel_define.h"
+#include "kernel/naive/quantize.h"
 #include "math.h"
 #include "string.h"
 

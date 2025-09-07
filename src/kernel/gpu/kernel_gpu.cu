@@ -12,7 +12,7 @@
 #include "kernel_gpu.h"
 #include "math.h"
 #include "string.h"
-#include "utils.h"
+#include "utils/utils.h"
 
 namespace ELIB {
 namespace gpu {

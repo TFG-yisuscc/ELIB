@@ -3,8 +3,8 @@
 #include <assert.h>
 #include <cstdlib>
 #include "core/tensor.h"
-#include "file.h"
-#include "kern/kernel_define.h"
+#include "utils/file.h"
+#include "kernel/kernel_define.h"
 
 namespace ELIB {
 namespace opt {

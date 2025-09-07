@@ -4,8 +4,8 @@
 #include <sys/time.h>
 #include <cmath>
 #include <cstdlib>
-#include "kern/kernel_define.h"
-#include "kern/naive/quantize.h"
+#include "kernel/kernel_define.h"
+#include "kernel/naive/quantize.h"
 
 #include "common.h"
 

@@ -2,8 +2,8 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-#include "kern/kernel.h"
-#include "kern/naive/naive.h"
+#include "kernel/kernel.h"
+#include "kernel/naive/naive.h"
 using namespace ELIB;
 
 void LayerNorm::execute(WorkSpace* workspace, uint32_t nr_past) {

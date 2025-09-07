@@ -4,11 +4,11 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "core/thread_pool.h"
-#include "kern/kernel_define.h"
-#include "utils.h"
+#include "kernel/kernel_define.h"
+#include "utils/utils.h"
 
 #if INFER_X86
-#include "kern/optimized/x86/kernel.h"
+#include "kernel/optimized/x86/kernel.h"
 #elif INFER_ARM
 #include "kern/optimized/arm/kernel.h"
 #elif INFER_RVV

@@ -3,9 +3,9 @@
 #include <cmath>
 
 #include "core/tensor.h"
-#include "kern/kernel_define.h"
-#include "kern/naive/naive.h"
-#include "kern/naive/quantize.h"
+#include "kernel/kernel_define.h"
+#include "kernel/naive/naive.h"
+#include "kernel/naive/quantize.h"
 
 #include "common.h"
 

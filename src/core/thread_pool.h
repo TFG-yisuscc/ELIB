@@ -7,8 +7,8 @@
 #include <thread>
 #include <vector>
 
-#include "kern/kernel_define.h"
-#include "utils.h"
+#include "kernel/kernel_define.h"
+#include "utils/utils.h"
 
 // clang-format off
 #ifndef INFER_PAUSE

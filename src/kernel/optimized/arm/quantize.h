@@ -4,8 +4,8 @@
 #include "arm_neon.h"
 
 #include "core/tensor.h"
-#include "kern/kernel_define.h"
-#include "kern/naive/naive.h"
+#include "kernel/kernel_define.h"
+#include "kernel/naive/naive.h"
 
 namespace ELIB {
 namespace opt {

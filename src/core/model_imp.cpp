@@ -2,10 +2,10 @@
 #include <fstream>
 #include <vector>
 
-#include "file.h"
+#include "utils/file.h"
 #include "graph.h"
 #include "model_imp.h"
-#include "utils.h"
+#include "utils/utils.h"
 
 using namespace ELIB;
 

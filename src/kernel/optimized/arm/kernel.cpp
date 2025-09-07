@@ -1,7 +1,7 @@
 #include <assert.h>
 #include "math.h"
 #include "string.h"
-#include "utils.h"
+#include "utils/utils.h"
 
 #include "core/tensor.h"
 #include "kernel.h"
