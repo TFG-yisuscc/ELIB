@@ -1,9 +1,9 @@
 #include <assert.h>
 #include "core/tensor.h"
-#include "kernel/kernel.h"
+#include "kern/kernel.h"
 #include "math.h"
 #include "string.h"
-#include "utils/utils.h"
+#include "utils.h"
 
 namespace ELIB {
 namespace naive {

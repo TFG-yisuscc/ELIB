@@ -1,6 +1,6 @@
 #pragma once
 
-#include "kernel/kernel.h"
+#include "kern/kernel.h"
 #include "kvstorage.h"
 #include "tensor.h"
 

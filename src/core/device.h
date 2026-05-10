@@ -3,9 +3,9 @@
 #include <functional>
 #include <map>
 
-#include "kernel/kernel.h"
+#include "kern/kernel.h"
 #include "thread_pool.h"
-#include "utils/utils.h"
+#include "utils.h"
 
 #if ENABLE_GPU
 #include <cublas_v2.h>

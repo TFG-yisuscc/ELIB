@@ -2,7 +2,7 @@
 
 #include <assert.h>
 #include "arm_neon.h"
-#include "kernel/kernel_define.h"
+#include "kern/kernel_define.h"
 
 namespace ELIB {
 namespace opt {

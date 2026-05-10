@@ -1,7 +1,7 @@
 #include "tensor.h"
-#include "../kernel/kernel_define.h"
+#include "../kern/kernel_define.h"
 #include "memory.h"
-#include "utils/utils.h"
+#include "utils.h"
 #include "op.h"
 
 using namespace ELIB;

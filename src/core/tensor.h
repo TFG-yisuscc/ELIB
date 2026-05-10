@@ -1,8 +1,8 @@
 #pragma once
 
 #include "device.h"
-#include "utils/file.h"
-#include "utils/utils.h"
+#include "file.h"
+#include "utils.h"
 
 namespace ELIB {
 
