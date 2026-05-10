@@ -1,8 +1,8 @@
 #include <assert.h>
-#include "kernel/naive/quantize.h"
+#include "kern/naive/quantize.h"
 #include "math.h"
 #include "string.h"
-#include "utils/utils.h"
+#include "utils.h"
 
 #include "core/tensor.h"
 #include "kernel.h"
